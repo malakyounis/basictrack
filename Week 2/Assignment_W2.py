@@ -40,7 +40,13 @@ print("Assignment- Part 2")
 transportation_mode = str(input("Are you traveling by bike, car, or walking?"))
 speed = int(input("How fast do you travel by " + transportation_mode + "? (in h/Kms)"))
 distance = int(input("How far away is the place you're going? (in km's)"))
-print(distance / speed)
+time= (distance / speed)
 
 # I could not put it into the sentence below, it gave me an error
 # print("It will take you " + int((distance/speed)) + "to get to where you are going!")
+
+#time= (distance / speed)
+#print("It will take you " + time + "to get to where you are going!")
+#time = int(input("It will take you " + int((distance/speed)) + "to get to where you are going!" ))
+#time= input("It will take you " + (distance / speed) + "to get to where you are going!"
+
